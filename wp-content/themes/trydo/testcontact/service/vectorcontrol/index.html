@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Regesteriation</title>
+</head>
+<body>
+<div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+       <div class="panel panel-primary">
+           <div class="panel-heading" style="text-align: center;">
+                      <h1> Regesteriation For computer course </h1>
+           </div>
+           <div class="panel-body">
+             <form action="conn.php" method="POST">
+                <div style="text-align: center;">
+                    <label>Enter Your Type</label>
+                    <div>
+                           <label for="person" class="radio-inline"><input type="radio" name="applicant" id="person" value="person">person</label>
+                           <label for="Establishment" class="radio-inline"><input type="radio" name="applicant" id="Establishment" value="Establishment">Establishment</label>
+                    </div>    
+                    <div class="form-group">
+                    <label> Enter your full name </label>
+                    <input type="text" class="form-control" id="name" name="name">
+                  </div>
+                  <div class="form-group" >
+                    Pest Type:
+                    <select name="pesttype">
+                        <option value="">Select One</option>
+                        <option value="Dog">Dog</option>
+                        <option value="Bee">Bee</option>
+                        <option value="Spiders">Spiders</option>
+                        <option value="Flies">Flies</option>
+                        <option value="Other insects">Other insects</option>
+                    </select>
+                  </div>
+                  <div class="form-group" >
+                    <label>Enter Your Phone Number</label>  
+                    <input type="number" class="form-control" id="number" name="phonenumber">
+                  </div> 
+                  <div class="form-group" >
+                    <label> Enter Your Region </label>
+                    <input type="text" class="form-control" id="Region" name="Region">
+                  </div>
+                  <div class="form-group" >
+                    <label> Enter Your Buling Number </label>
+                    <input type="number" class="form-control" id="buildingnumber" name="buildingnumber">
+                  </div>        
+                  <input type="submit" class="btn">
+
+                </div>
+             </form>
