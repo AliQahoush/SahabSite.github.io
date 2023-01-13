@@ -2,5 +2,4 @@
 
 ##Screen Shoots 
 
-## Please Cl
-https://github.com/AliQahoush/SahabSite.github.io/issues/1#issue-1532271661
+![ph1](https://user-images.githubusercontent.com/106832642/212326260-1de9278b-e0f2-4e13-adc3-e8e8e6bcf644.png)
